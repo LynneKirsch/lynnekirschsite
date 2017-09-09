@@ -6838,10 +6838,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden; }
 
 main {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+  overflow-x: hidden; }
 
 .cta {
   padding: 2rem; }
@@ -6863,6 +6866,9 @@ nav {
   margin: 0 auto;
   max-width: 1280px;
   width: 100%; }
+
+#sidenav-overlay {
+  z-index: 950; }
 
 @media only screen and (max-width: 600px) {
   h1 {
