@@ -36,38 +36,46 @@
 
     <div class="container">
         <div class="row">
-            <div class="col s12 center">
-                <div class="chip">PHP 7</div>
-                <div class="chip">MySQL</div>
-                <div class="chip">HTML 5</div>
-                <div class="chip">CSS 3</div>
-                <div class="chip">Sass</div>
-                <div class="chip">Adobe Photoshop</div>
-                <div class="chip">Bootstrap</div>
-                <div class="chip">SEO</div>
-                <div class="chip">GIT</div>
-                <div class="chip">Atlassian</div>
-                <div class="chip">Apache</div>
-                <div class="chip">Docker</div>
-                <div class="chip">Javascript</div>
-                <div class="chip">Jquery</div>
-                <div class="chip">Ajax</div>
-                <div class="chip">Twig</div>
-                <div class="chip">Mustache</div>
-                <div class="chip">Blade</div>
-                <div class="chip">Responsive Design</div>
-                <div class="chip">Laravel</div>
-                <div class="chip">CodeIgniter</div>
-                <div class="chip">Doctrine</div>
-                <div class="chip">Symfony</div>
+            <div class="col s12 center ">
+                <h3 class="grey-text text-darken-2">My Stack</h3>
+                <hr>
+                <div class="center">
+                    <div class="chip">PHP 7</div>
+                    <div class="chip">MySQL</div>
+                    <div class="chip">HTML 5</div>
+                    <div class="chip">CSS 3</div>
+                    <div class="chip">Sass</div>
+                    <div class="chip">Adobe Photoshop</div>
+                    <div class="chip">Bootstrap</div>
+                    <div class="chip">SEO</div>
+                    <div class="chip">GIT</div>
+                    <div class="chip">Atlassian</div>
+                    <div class="chip">Apache</div>
+                    <div class="chip">Docker</div>
+                    <div class="chip">Javascript</div>
+                    <div class="chip">Jquery</div>
+                    <div class="chip">Ajax</div>
+                    <div class="chip">Twig</div>
+                    <div class="chip">Mustache</div>
+                    <div class="chip">Blade</div>
+                    <div class="chip">Responsive Design</div>
+                    <div class="chip">Laravel</div>
+                    <div class="chip">CodeIgniter</div>
+                    <div class="chip">Doctrine</div>
+                    <div class="chip">Symfony</div>
+                </div>
+                <hr>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container mobile-padding">
         <div class="row">
-            <div class="col s12 center">
-                <a href="/resume" class="btn btn-large cyan darken-2 z-depth-0">View Resume</a> <br> <br>
-                <a href="https://www.linkedin.com/in/lynne-kirsch-a1303925" target="_blank" class="btn btn-large cyan darken-2 z-depth-0">Connect on Linked In</a>
+            <div class="col l6 m12 s12 center">
+                <a href="/resume" class="btn btn-block btn-large cyan darken-2 z-depth-0">View Resume</a>
+                <div class="hide-on-large-only"><br></div>
+            </div>
+            <div class="col l6 m12 s12 center">
+                <a href="https://www.linkedin.com/in/lynne-kirsch-a1303925" target="_blank" class="btn btn-block btn-large cyan darken-2 z-depth-0">Connect on Linked In</a>
             </div>
         </div>
     </div>

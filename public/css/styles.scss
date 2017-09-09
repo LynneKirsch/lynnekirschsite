@@ -33,6 +33,7 @@ main {
   }
 }
 
+
 .row.no-margin {
   margin-bottom: 0;
 }
@@ -77,8 +78,14 @@ nav {
 
 @media #{$medium-and-down} {
 
-  .container.intro {
-    width: 90%;
+  .container {
+    &.intro {
+      width: 90%;
+    }
+
+    &.mobile-padding {
+      padding: 1rem;
+    }
   }
 }
 

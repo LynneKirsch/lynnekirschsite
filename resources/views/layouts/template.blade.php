@@ -19,18 +19,18 @@
             <div class="nav-wrapper container "><a id="logo-container" href="/" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/introduction">Introduction</a></li>
-                    <li><a href="#">Code</a></li>
-                    <li><a href="#">Design</a></li>
+                    <li><a href="/code">Code</a></li>
+                    <li><a href="/design">Design</a></li>
                     <li><a href="/resume">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
 
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="/introduction">Introduction</a></li>
-                    <li><a href="#">Code</a></li>
-                    <li><a href="#">Design</a></li>
+                    <li><a href="/code">Code</a></li>
+                    <li><a href="/design">Design</a></li>
                     <li><a href="/resume">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
