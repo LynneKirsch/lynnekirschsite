@@ -1,8 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-    <div class="container grey-text text-darken-2 intro resume">
-
+    <div class="container grey-text text-darken-2 resume padding">
         <div class="row">
             <div class="col s12">
                 <h5 class="teal-text">Self-Summary</h5>

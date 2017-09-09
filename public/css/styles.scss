@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   width: 100%;
   overflow-x: hidden;
-  background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Free-Material-Design-Background-For-You.jpg");
+  background: url("/img/bg.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -21,7 +21,6 @@ main {
 }
 
 .cta {
-
   &.col {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -62,6 +61,14 @@ nav {
   margin: 0 auto;
   max-width: 1280px;
   width: 100%;
+
+  &.padding {
+    padding: 1rem;
+    background-color: transparentize(#FFFFFF, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
 }
 
 #sidenav-overlay {
@@ -91,6 +98,15 @@ nav {
   display: none;
 }
 
+.resume {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  &.container {
+    width: 40%;
+  }
+}
+
 .resume_footer {
   display: none;
 }
@@ -106,6 +122,10 @@ nav {
       width: 90%;
     }
 
+    &.padding {
+      width: 100%;
+    }
+
     &.mobile-padding {
       padding: 1rem;
     }
@@ -118,17 +138,18 @@ nav {
   }
 
   .resume {
-    margin-top: 10px;
     font-size: 12px;
+    margin-bottom: 0;
+
+    &.container {
+      &.padding {
+        width: 100%;
+        padding: 0;
+      }
+    }
 
     .resume-print {
       display: none;
-    }
-
-    &.container {
-      &.intro {
-        width: 100%;
-      }
     }
 
     strong {

@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-    <div class="container grey-text text-darken-2 intro">
+    <div class="container grey-text text-darken-4 intro  padding">
         <div class="row">
             <div class="col s12">
                 <h1>Hi, I'm Lynne!</h1>
