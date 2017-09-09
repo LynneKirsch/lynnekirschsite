@@ -13,10 +13,12 @@
 
 </head>
 <body>
+
 <div id="header">
     <div class="navbar-fixed">
-        <nav class="teal" role="navigation">
-            <div class="nav-wrapper container "><a id="logo-container" href="/" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
+        <nav class="cyan darken-1" role="navigation">
+            <div class="nav-wrapper container ">
+                <a id="logo-container" href="/" class="brand-logo white-text">LYNNE KIRSCH</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/introduction">Introduction</a></li>
                     <li><a href="/code">Code</a></li>
@@ -37,6 +39,7 @@
         </nav>
     </div>
 </div>
+
 <main>
     @yield('content')
 </main>
@@ -61,7 +64,10 @@
 </body>
 </html>
 <!--
----- Hey there! I see you're checking out my code. I built this website using Laravel.
+---- Hey there! I see you're checking out my code. I built this website using Laravel
+---- and the materialize css frontend framework. It's similar to bootstrap but with
+---- a touch of Google.
+----
 ---- If you want to see more of the meat and bones, of which there isn't much, you can
 ---- see it where it lives: https://github.com/LynneKirsch/lynnekirschsite
 --!>
