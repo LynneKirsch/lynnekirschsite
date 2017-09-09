@@ -12,28 +12,28 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-<div class="navbar-fixed">
-    <nav class="teal" role="navigation">
-        <div class="nav-wrapper container "><a id="logo-container" href="#" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="/introduction">Introduction</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="navbar-fixed">
+        <nav class="teal" role="navigation">
+            <div class="nav-wrapper container "><a id="logo-container" href="/" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/introduction">Introduction</a></li>
+                    <li><a href="#">Code</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
 
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="/introduction">Introduction</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-</div>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="/introduction">Introduction</a></li>
+                    <li><a href="#">Code</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
 <main>
     @yield('content')
 </main>
