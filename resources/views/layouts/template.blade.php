@@ -15,7 +15,7 @@
 <nav class="teal" role="navigation">
     <div class="nav-wrapper container "><a id="logo-container" href="#" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="#">Introduction</a></li>
+            <li><a href="/lynnekirschsite/public/introduction">Introduction</a></li>
             <li><a href="#">Code</a></li>
             <li><a href="#">Design</a></li>
             <li><a href="#">Resume</a></li>
@@ -51,3 +51,8 @@
 <script src="js/init.js"></script>
 </body>
 </html>
+<!--
+---- Hey there! I see you're checking out my code. I built this website using Laravel.
+---- If you want to see more of the meat and bones, of which there isn't much, you can
+---- see it where it lives: https://github.com/LynneKirsch/lynnekirschsite
+--!>
