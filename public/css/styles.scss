@@ -44,3 +44,17 @@ nav {
   max-width: 1280px;
   width: 100%;
 }
+
+@media #{$small-and-down} {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  nav .brand-logo {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+}

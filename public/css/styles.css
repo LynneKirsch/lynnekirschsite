@@ -6864,4 +6864,14 @@ nav {
   max-width: 1280px;
   width: 100%; }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.2rem; }
+
+  nav .brand-logo {
+    font-size: 1.5rem; }
+
+  footer {
+    padding: 1rem; } }
+
 /*# sourceMappingURL=styles.css.map */

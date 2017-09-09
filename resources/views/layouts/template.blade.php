@@ -38,8 +38,8 @@
 <footer class="page-footer grey darken-4">
     <div class="container">
         <div class="row">
-            <div class="col l6 s12">Lynne Kirsch &copy; 2017</div>
-            <div class="col l6 s12 right-align">lynne.kirsch@gmail.com</div>
+            <div class="col l6 s6">Lynne Kirsch &copy; 2017</div>
+            <div class="col l6 s6 right-align">lynne.kirsch@gmail.com</div>
         </div>
     </div>
 </footer>

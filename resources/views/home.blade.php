@@ -1,7 +1,9 @@
 @extends('layouts.template')
 
 @section('content')
-    <br>
+    <div class="hide-on-small-only">
+        <br>
+    </div>
     <div class="row">
         <div class="col s12">
             <div class="container">
