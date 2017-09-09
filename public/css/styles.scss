@@ -52,6 +52,10 @@ nav {
   z-index: 950;
 }
 
+.container.intro {
+  width: 40%;
+}
+
 @media #{$small-and-down} {
   h1 {
     font-size: 3.2rem;
@@ -63,5 +67,13 @@ nav {
 
   footer {
     padding: 1rem;
+  }
+
+}
+
+@media #{$medium-and-down} {
+
+  .container.intro {
+    width: 90%;
   }
 }

@@ -6870,6 +6870,9 @@ nav {
 #sidenav-overlay {
   z-index: 950; }
 
+.container.intro {
+  width: 40%; }
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 3.2rem; }
@@ -6879,5 +6882,8 @@ nav {
 
   footer {
     padding: 1rem; } }
+@media only screen and (max-width: 992px) {
+  .container.intro {
+    width: 90%; } }
 
 /*# sourceMappingURL=styles.css.map */
