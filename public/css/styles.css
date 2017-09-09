@@ -6843,13 +6843,25 @@ body {
 main {
   flex: 1 0 auto; }
 
-.container.cta {
+.cta {
   padding: 2rem; }
-  .container.cta span.title {
+  .cta span.title {
     font-size: 50px; }
-  .container.cta.designer span.title {
+  .cta.designer span.title {
     font-family: "Pacifico", sans-serif; }
-  .container.cta.coder span.title {
+  .cta.coder span.title {
     font-family: "Share Tech Mono", sans-serif; }
+
+.row.no-margin {
+  margin-bottom: 0; }
+
+nav {
+  background-color: transparent;
+  box-shadow: none; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

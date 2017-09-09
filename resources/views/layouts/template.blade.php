@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Starter Template - Materialize</title>
+    <title>Lynne Kirsch - Web Developer and Designer</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,8 +12,8 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-<nav class="teal lighten-3" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Lynne Kirsch</a>
+<nav class="teal" role="navigation">
+    <div class="nav-wrapper container "><a id="logo-container" href="#" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#">Introduction</a></li>
             <li><a href="#">Code</a></li>
@@ -36,12 +36,18 @@
     @yield('content')
 </main>
 <footer class="page-footer grey darken-4">
-
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">Lynne Kirsch &copy; 2017</div>
+            <div class="col l6 s12 right-align">lynne.kirsch@gmail.com</div>
+        </div>
+    </div>
 </footer>
 
 
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/bin/materialize.js"></script>
+<script src="js/init.js"></script>
 </body>
 </html>
