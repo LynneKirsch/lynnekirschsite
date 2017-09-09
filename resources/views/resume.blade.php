@@ -1,27 +1,16 @@
 @extends('layouts.template')
 
 @section('content')
-    <div class="container grey-text text-darken-2 intro">
-        <br>
-        <div class="row resume_header">
-            <div class="col s6">
-                <h5>Resume</h5>
-            </div>
-            <div class="col s6 right-align hide-on-med-and-down">
-                <a class="btn z-depth-0" href="https://docs.google.com/document/d/1s-2qoQPhTEpk_eZqWFYaWgbJmUas92qQ5UgEgaP-8vc/edit?usp=sharing" target="_blank">View In Drive</a>
-            </div>
-        </div>
+    <div class="container grey-text text-darken-2 intro resume">
+
         <div class="row">
             <div class="col s12">
                 <h5 class="teal-text">Self-Summary</h5>
-                <p>
-                    I have put a great deal of effort into learning skills relevant to both web programming and design, keeping myself up to date with
-                    latest trends and best practices as well as new and emerging technologies. It is my passion for learning, pushing myself and
-                    broadening my skillset that has sparked me to seek new opportunities in the design and programming field.
+                I have put a great deal of effort into learning skills relevant to both web programming and design, keeping myself up to date with
+                latest trends and best practices as well as new and emerging technologies. It is my passion for learning, pushing myself and
+                broadening my skillset that has sparked me to seek new opportunities in the design and programming field.
 
-                    I am currently looking to relocate my talents to the Southern California area.
-
-                </p>
+                I am currently looking to relocate my talents to the Southern California area.
             </div>
         </div>
         <div class="row stack_for_web">
@@ -143,6 +132,14 @@
                         Udemy and W3Schools, and attained a handful of certificates.
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row center resume-print hide-on-small-and-down">
+            <div class="col l12">
+                <h3>I'm printer friendly!</h3>
+                <button class="btn z-depth-0" onclick="window.print();">Print Me</button> or
+                <a class="btn z-depth-0" href="https://docs.google.com/document/d/1s-2qoQPhTEpk_eZqWFYaWgbJmUas92qQ5UgEgaP-8vc/edit?usp=sharing" target="_blank">View In Drive</a>
             </div>
         </div>
     </div>

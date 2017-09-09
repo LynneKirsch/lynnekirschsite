@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
-    <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
+    <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection,print"/>
+
 </head>
 <body>
 <div id="header">
@@ -42,9 +42,13 @@
 </main>
 <footer class="page-footer grey darken-4">
     <div class="container">
-        <div class="row">
+        <div class="row web_footer">
             <div class="col l6 s6">Lynne Kirsch &copy; 2017</div>
-            <div class="col l6 s6 right-align">lynne.kirsch@gmail.com</div>
+            <div class="col l6 s6 right-align">lynne.kirsch@gmail.com &bull; 607.342.5016</div>
+        </div>
+        <div class="row resume_footer">
+            <div class="col l6 s6">lynne.kirsch@gmail.com</div>
+            <div class="col l6 s6 right-align">607.342.5016</div>
         </div>
     </div>
 </footer>

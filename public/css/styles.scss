@@ -76,6 +76,10 @@ nav {
   display: none;
 }
 
+.resume_footer {
+  display: none;
+}
+
 @media #{$medium-and-down} {
 
   .container {
@@ -92,5 +96,52 @@ nav {
 @media print {
   #header {
     display: none !important;
+  }
+
+  .resume {
+    font-size: 12px;
+
+    .resume-print {
+      display: none;
+    }
+
+    &.container {
+      &.intro {
+        width: 100%;
+      }
+    }
+
+    strong {
+      color: color("cyan", "darken-4");
+    }
+
+    .stack_for_print {
+      display: block;
+    }
+
+    .stack_for_web {
+      display: none;
+    }
+
+    .resume_header {
+      display: none;
+    }
+
+    h5 {
+      color: color("cyan", "base") !important;
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      border-bottom: 1px solid;
+      padding-bottom: 10px;
+    }
+  }
+
+  .resume_footer {
+    display: block;
+  }
+
+  .web_footer {
+    display: none;
+    
   }
 }
