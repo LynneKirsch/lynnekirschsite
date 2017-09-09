@@ -1,0 +1,33 @@
+@import "materialize";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container {
+  &.cta {
+    padding: 2rem;
+    
+    span.title {
+      font-size: 50px;
+    }
+
+    &.designer {
+      span.title {
+        font-family: "Pacifico", sans-serif;
+      }
+    }
+
+    &.coder {
+      span.title {
+        font-family: "Share Tech Mono", sans-serif;
+      }
+    }
+  }
+}
