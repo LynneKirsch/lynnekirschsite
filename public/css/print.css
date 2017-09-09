@@ -1,0 +1,23 @@
+#header {
+    display: none !important;
+}
+
+.stack_for_print {
+    display: block;
+}
+
+.stack_for_web {
+    display: none;
+}
+
+.resume_header {
+    display: none;
+}
+
+h5 {
+    margin: 0;
+}
+
+footer {
+    display: none;
+}

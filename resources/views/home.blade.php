@@ -66,7 +66,8 @@
     <div class="container">
         <div class="row">
             <div class="col s12 center">
-                <a class="btn btn-large cyan darken-2 z-depth-0">View Resume</a>
+                <a href="/resume" class="btn btn-large cyan darken-2 z-depth-0">View Resume</a> <br> <br>
+                <a href="https://www.linkedin.com/in/lynne-kirsch-a1303925" target="_blank" class="btn btn-large cyan darken-2 z-depth-0">Connect on Linked In</a>
             </div>
         </div>
     </div>

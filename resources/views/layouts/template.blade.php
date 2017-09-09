@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
     <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
 </head>
 <body>
+<div id="header">
     <div class="navbar-fixed">
         <nav class="teal" role="navigation">
             <div class="nav-wrapper container "><a id="logo-container" href="/" class="brand-logo teal-text text-darken-4">LYNNE KIRSCH</a>
@@ -34,6 +36,7 @@
             </div>
         </nav>
     </div>
+</div>
 <main>
     @yield('content')
 </main>

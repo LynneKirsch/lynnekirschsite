@@ -3,13 +3,12 @@
 @section('content')
     <div class="container grey-text text-darken-2 intro">
         <br>
-        <div class="row">
+        <div class="row resume_header">
             <div class="col s6">
                 <h5>Resume</h5>
             </div>
             <div class="col s6 right-align hide-on-med-and-down">
-                <a class="btn z-depth-0"><i class="material-icons left">cloud</i> Print</a>
-                <a class="btn z-depth-0"><i class="material-icons left">cloud</i> Download</a>
+                <a class="btn z-depth-0" href="https://docs.google.com/document/d/1s-2qoQPhTEpk_eZqWFYaWgbJmUas92qQ5UgEgaP-8vc/edit?usp=sharing" target="_blank">View In Drive</a>
             </div>
         </div>
         <div class="row">
@@ -25,7 +24,7 @@
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row stack_for_web">
             <div class="col s12 ">
                 <h5 class="teal-text">My Stack</h5>
                 <div class="chip">PHP 7</div>
@@ -53,6 +52,36 @@
                 <div class="chip">Symfony</div>
             </div>
         </div>
+
+        <div class="stack_for_print">
+            <h5 class="teal-text">My Stack</h5>
+            PHP 7 &bull;
+            MySQL &bull;
+            HTML 5 &bull;
+            CSS 3 &bull;
+            Sass &bull;
+            Adobe Photoshop &bull;
+            Bootstrap &bull;
+            SEO &bull;
+            GIT &bull;
+            Atlassian &bull;
+            Apache &bull;
+            Docker &bull;
+            Javascript &bull;
+            Jquery &bull;
+            Ajax &bull;
+            Twig &bull;
+            Mustache &bull;
+            Blade &bull;
+            Responsive Design &bull;
+            Laravel &bull;
+            CodeIgniter &bull;
+            Doctrine &bull;
+            Symfony
+            <br>
+            <br>
+        </div>
+
         <div class="row">
             <div class="col s12">
                 <h5 class="teal-text">Experience</h5>

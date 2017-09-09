@@ -6882,8 +6882,14 @@ nav {
 
   footer {
     padding: 1rem; } }
+.stack_for_print {
+  display: none; }
+
 @media only screen and (max-width: 992px) {
   .container.intro {
     width: 90%; } }
+@media print {
+  #header {
+    display: none !important; } }
 
 /*# sourceMappingURL=styles.css.map */

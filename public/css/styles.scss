@@ -71,9 +71,19 @@ nav {
 
 }
 
+.stack_for_print {
+  display: none;
+}
+
 @media #{$medium-and-down} {
 
   .container.intro {
     width: 90%;
+  }
+}
+
+@media print {
+  #header {
+    display: none !important;
   }
 }
