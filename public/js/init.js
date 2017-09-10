@@ -33,20 +33,6 @@ function changePage() {
     });
 }
 
-function animate(oldContent, newContent) {
-    var fadeOut = oldContent.animate({
-        opacity: [1, 0]
-    }, 1000);
-
-    var fadeIn = newContent.animate({
-        opacity: [0, 1]
-    }, 1000);
-
-    fadeIn.onfinish = function() {
-        oldContent.parentNode.removeChild(oldContent);
-    };
-}
-
 window.addEventListener('popstate', changePage);
 
 document.addEventListener('click', function(e) {
