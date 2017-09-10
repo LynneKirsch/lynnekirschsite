@@ -38,8 +38,12 @@
     </div>
 </div>
 
-<main id="main-page-content" class="valign-wrapper" style="opacity: 0;">
-    @yield('content')
+<main  id="main-page-content" class="valign-wrapper" style="display: none;">
+    <div class="row no-margin" id="content-inner">
+        <div class="col s12">
+            @yield('content')
+        </div>
+    </div>
 </main>
 
 <footer class="page-footer custom-footer">

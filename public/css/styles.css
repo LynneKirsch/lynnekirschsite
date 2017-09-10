@@ -6900,7 +6900,7 @@ nav {
   z-index: 950; }
 
 .container.intro {
-  width: 40%; }
+  width: 80%; }
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -6918,7 +6918,7 @@ nav {
   margin-top: 10px;
   margin-bottom: 10px; }
   .resume.container {
-    width: 40%; }
+    width: 80%; }
 
 .resume_footer {
   display: none; }
