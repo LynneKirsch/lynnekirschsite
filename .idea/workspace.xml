@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca88936d-c2bd-4604-b55c-64b400cff672" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.scss" afterPath="$PROJECT_DIR$/public/css/styles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/init.js" afterPath="$PROJECT_DIR$/public/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/template.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/template.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -123,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="391">
+              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -173,8 +169,8 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/resume.blade.php" />
         <option value="$PROJECT_DIR$/public/css/styles.scss" />
-        <option value="$PROJECT_DIR$/public/js/init.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/template.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/init.js" />
       </list>
     </option>
   </component>
@@ -340,12 +336,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504913241977</updated>
       <workItem from="1504913243200" duration="12594000" />
-      <workItem from="1504973074578" duration="15770000" />
+      <workItem from="1504973074578" duration="16381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28364000" />
+    <option name="totallyTimeSpent" value="28975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="1" width="1936" height="1066" extended-state="6" />
@@ -652,14 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -670,6 +658,14 @@
             <element signature="e#2344#2350#0#HTML" expanded="true" />
             <marker date="1505023676321" expanded="true" signature="2054:2063" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

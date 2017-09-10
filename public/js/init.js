@@ -24,6 +24,7 @@ function loadPage(url) {
 
 function changePage() {
     var url = window.location.href;
+    $('.button-collapse').sideNav('hide');
 
     loadPage(url).then(function(responseText) {
         $("#main-page-content").fadeOut(500, function() {
