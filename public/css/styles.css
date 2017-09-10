@@ -6900,7 +6900,9 @@ nav {
   z-index: 950; }
 
 .container.intro {
-  width: 80%; }
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 @media only screen and (max-width: 600px) {
   h1 {
