@@ -42,7 +42,7 @@
     @yield('content')
 </main>
 
-<footer class="page-footer grey darken-4">
+<footer class="page-footer cyan darken-1">
     <div class="container">
         <div class="row web_footer">
             <div class="col l6 s6">Lynne Kirsch &copy; 2017</div>

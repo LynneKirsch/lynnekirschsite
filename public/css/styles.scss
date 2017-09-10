@@ -7,9 +7,10 @@ body {
   width: 100%;
   overflow-x: hidden;
   //background: url("/img/bg.jpg");
-  background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Free-Material-Design-Background-For-You.jpg");
-  background-position: center center;
+  background: url("http://cdn.hdwallpaperpoint.com/wp-content/uploads/2016/06/abstract-low-poly-hd-wallpaper-1920x1200.jpg");
+  background-position: top center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .home-wrap {
@@ -35,7 +36,7 @@ main {
     span.title {
       font-family: "Pacifico", sans-serif;
     }
-    background-color: transparentize(color("cyan", "base"), 0.2);
+    background-color: transparentize(color("deep-purple", "base"), 0.2);
     color: white;
   }
 
@@ -43,7 +44,7 @@ main {
     span.title {
       font-family: "Share Tech Mono", sans-serif;
     }
-    background-color: transparentize(color("grey", "darken-2"), 0.2);
+    background-color: transparentize(color("grey", "darken-4"), 0.2);
     color: white;
   }
 }

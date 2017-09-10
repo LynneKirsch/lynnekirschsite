@@ -6841,9 +6841,10 @@ body {
   flex-direction: column;
   width: 100%;
   overflow-x: hidden;
-  background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Free-Material-Design-Background-For-You.jpg");
-  background-position: center center;
-  background-size: cover; }
+  background: url("http://cdn.hdwallpaperpoint.com/wp-content/uploads/2016/06/abstract-low-poly-hd-wallpaper-1920x1200.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .home-wrap {
   height: 85vh; }
@@ -6858,12 +6859,12 @@ main {
 .cta span.title {
   font-size: 50px; }
 .cta.designer {
-  background-color: rgba(0, 188, 212, 0.8);
+  background-color: rgba(103, 58, 183, 0.8);
   color: white; }
   .cta.designer span.title {
     font-family: "Pacifico", sans-serif; }
 .cta.coder {
-  background-color: rgba(97, 97, 97, 0.8);
+  background-color: rgba(33, 33, 33, 0.8);
   color: white; }
   .cta.coder span.title {
     font-family: "Share Tech Mono", sans-serif; }
