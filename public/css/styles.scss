@@ -6,7 +6,8 @@ body {
   flex-direction: column;
   width: 100%;
   overflow-x: hidden;
-  background: url("/img/bg.jpg"); 
+  //background: url("/img/bg.jpg");
+  background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Free-Material-Design-Background-For-You.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -34,7 +35,7 @@ main {
     span.title {
       font-family: "Pacifico", sans-serif;
     }
-    background-color: transparentize(color("teal", "lighten-2"), 0.2);
+    background-color: transparentize(color("cyan", "base"), 0.2);
     color: white;
   }
 

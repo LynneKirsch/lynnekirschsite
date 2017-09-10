@@ -6,16 +6,16 @@
     for making the web beautiful.
 </p>
 <div class="center">
-    <div class="chip teal lighten-4">HTML 5</div>
-    <div class="chip teal lighten-4">CSS 3</div>
-    <div class="chip teal lighten-4">Sass</div>
-    <div class="chip teal lighten-4">Adobe Photoshop</div>
-    <div class="chip teal lighten-4">Bootstrap</div>
-    <div class="chip teal lighten-4">SEO</div>
-    <div class="chip teal lighten-4">Twig</div>
-    <div class="chip teal lighten-4">Mustache</div>
-    <div class="chip teal lighten-4">Blade</div>
-    <div class="chip teal lighten-4">Responsive Design</div>
+    <div class="chip cyan lighten-4">HTML 5</div>
+    <div class="chip cyan lighten-4">CSS 3</div>
+    <div class="chip cyan lighten-4">Sass</div>
+    <div class="chip cyan lighten-4">Adobe Photoshop</div>
+    <div class="chip cyan lighten-4">Bootstrap</div>
+    <div class="chip cyan lighten-4">SEO</div>
+    <div class="chip cyan lighten-4">Twig</div>
+    <div class="chip cyan lighten-4">Mustache</div>
+    <div class="chip cyan lighten-4">Blade</div>
+    <div class="chip cyan lighten-4">Responsive Design</div>
 </div>
 <br>
-<a class="btn teal darken-2 z-depth-0">Design Portfolio</a>
+<a class="btn cyan darken-3 z-depth-0">Design Portfolio</a>

@@ -6841,7 +6841,7 @@ body {
   flex-direction: column;
   width: 100%;
   overflow-x: hidden;
-  background: url("/img/bg.jpg");
+  background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Free-Material-Design-Background-For-You.jpg");
   background-position: center center;
   background-size: cover; }
 
@@ -6858,7 +6858,7 @@ main {
 .cta span.title {
   font-size: 50px; }
 .cta.designer {
-  background-color: rgba(77, 182, 172, 0.8);
+  background-color: rgba(0, 188, 212, 0.8);
   color: white; }
   .cta.designer span.title {
     font-family: "Pacifico", sans-serif; }
