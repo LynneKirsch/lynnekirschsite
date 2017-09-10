@@ -49,6 +49,24 @@ main {
   }
 }
 
+.main-nav {
+  background-color: transparentize(color("cyan", "darken-1"), 0.2);
+
+  .nav-wrapper {
+    ul {
+      a {
+        text-transform: uppercase;
+        font-family: "Share Tech Mono", sans-serif;
+      }
+    }
+  }
+}
+
+  .page-footer {
+    &.custom-footer {
+      background-color: transparentize(color("cyan", "darken-1"), 0.2);
+    }
+  }
 
 .row.no-margin {
   margin-bottom: 0;

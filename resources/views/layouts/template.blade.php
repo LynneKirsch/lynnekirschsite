@@ -14,9 +14,9 @@
 
 <div id="header">
     <div class="navbar-fixed">
-        <nav class="cyan darken-1" role="navigation">
+        <nav class="main-nav" role="navigation">
             <div class="nav-wrapper container ">
-                <a id="logo-container" href="/" class="brand-logo white-text">LYNNE KIRSCH</a>
+                <a id="logo-container" href="/" class="brand-logo white-text" style="font-family: Pacifico, sans-serif">Lynne Kirsch</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/introduction">Introduction</a></li>
                     <li><a href="/code">Code</a></li>
@@ -42,7 +42,7 @@
     @yield('content')
 </main>
 
-<footer class="page-footer cyan darken-1">
+<footer class="page-footer custom-footer">
     <div class="container">
         <div class="row web_footer">
             <div class="col l6 s6">Lynne Kirsch &copy; 2017</div>

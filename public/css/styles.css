@@ -6869,6 +6869,15 @@ main {
   .cta.coder span.title {
     font-family: "Share Tech Mono", sans-serif; }
 
+.main-nav {
+  background-color: rgba(0, 172, 193, 0.8); }
+  .main-nav .nav-wrapper ul a {
+    text-transform: uppercase;
+    font-family: "Share Tech Mono", sans-serif; }
+
+.page-footer.custom-footer {
+  background-color: rgba(0, 172, 193, 0.8); }
+
 .row.no-margin {
   margin-bottom: 0; }
 
