@@ -38,7 +38,7 @@
     </div>
 </div>
 
-<main class="valign-wrapper">
+<main id="main-page-content" class="valign-wrapper" style="opacity: 0;">
     @yield('content')
 </main>
 
