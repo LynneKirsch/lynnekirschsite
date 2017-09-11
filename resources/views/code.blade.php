@@ -13,7 +13,7 @@
                                 that I've been doing both at work and on my free time for fun. If what you see here doesn't sate you, feel
                                 free to contact me. I legitimately love a challenge, if you want me to code something just for you, I'll do it.
                                 <br><br>
-                                Firstly, the code for this website: <a href="https://github.com/LynneKirsch/lynnekirschsite">https://github.com/LynneKirsch/lynnekirschsite</a>
+                                Firstly, the code for this website: <a href="https://github.com/LynneKirsch/lynnekirschsite" target="_blank">https://github.com/LynneKirsch/lynnekirschsite</a>
                                 <br><br>
                                 This site is just a really simple Laravel site. In fact, thinking now Laravel was probably overkill for this website,
                                 but I wanted to show that I can use pretty much any PHP framework comfortably.
@@ -31,7 +31,7 @@
                                 I really enjoy working on this project, it's just fun to see how simple and simultaneously robust I can make a site, and
                                 someday being able to say that I developed my own complete framework that people use is my nerdy equivalent to being a rockstar.
                                 <br><br>
-                                Here's the code: <a href="https://github.com/LynneKirsch/Sylph">https://github.com/LynneKirsch/Sylph</a>
+                                Here's the code: <a href="https://github.com/LynneKirsch/Sylph" target="_blank">https://github.com/LynneKirsch/Sylph</a>
                             </p>
                             <h5>PHP MUD | Game - Passion Project</h5>
                             <hr>
@@ -45,7 +45,7 @@
                                 <br><br>
                                 Someday I'd really like to finish this. It would just be cool to say I developed an entire game in a web-based language.
                                 <br><br>
-                                Here's the code (on its second iteration): <a href="https://github.com/LynneKirsch/phpmud2">https://github.com/LynneKirsch/phpmud2</a>
+                                Here's the code (on its second iteration): <a href="https://github.com/LynneKirsch/phpmud2" target="_blank">https://github.com/LynneKirsch/phpmud2</a>
                             </p>
                             <h5>Various Code Examples</h5>
                             <hr>
