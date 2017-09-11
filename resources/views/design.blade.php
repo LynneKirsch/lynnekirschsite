@@ -3,10 +3,10 @@
     <main id="main-page-content">
         <div class="row no-margin " id="content-inner">
             <div class="col s12">
-                <div class="container grey-text text-darken-4 body">
+                <div class="container grey-text text-darken-4 body" id="design_slide_1">
                     <div class="row no-margin">
                         <div class="col l6 s12">
-                            <img src="{{$base}}/img/portfolio/shakeshack.jpg" style="width: 100%;">
+                            <img src="{{$base}}/img/portfolio/shakeshack.jpg" style="max-width: 100%;">
                         </div>
                         <div class="col l6 s12 center">
                             <h3 class="cyan-text">Shake Shack Retail Shop</h3>
@@ -158,11 +158,8 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </main>
-
-
+    <script src="js/design.js"></script>
 @endsection

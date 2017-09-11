@@ -22,4 +22,4 @@
     <div class="chip">Symfony</div>
 </div>
 <br>
-<a class="btn grey darken-4 z-depth-0">Code Examples</a>
+<a class="btn grey darken-4 z-depth-0" href="{{$base}}/code">Code Examples</a>

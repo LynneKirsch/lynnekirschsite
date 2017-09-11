@@ -53,4 +53,9 @@ class Controller extends BaseController
     {
         return $this->view("design");
     }
+
+    public function code()
+    {
+        return $this->view("code");
+    }
 }

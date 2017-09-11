@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection,print"/>
 </head>
 <body>
@@ -21,7 +24,7 @@
                 <a id="logo-container" href="{{$base}}/" class="brand-logo white-text internal" style="font-family: Pacifico, sans-serif">Lynne Kirsch</a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="internal" href="{{$base}}/introduction">Introduction</a></li>
-                    <li><a class="internal" href="{{$base}}/code">Code</a></li>
+                    <li><a href="{{$base}}/code">Code</a></li>
                     <li><a class="internal" href="{{$base}}/design">Design</a></li>
                     <li><a class="internal" href="{{$base}}/resume">Resume</a></li>
                     <li><a class="internal" href="{{$base}}/contact">Contact</a></li>
@@ -29,7 +32,7 @@
 
                 <ul id="nav-mobile" class="side-nav">
                     <li><a class="internal" href="{{$base}}/introduction">Introduction</a></li>
-                    <li><a class="internal" href="{{$base}}/code">Code</a></li>
+                    <li><a href="{{$base}}/code">Code</a></li>
                     <li><a class="internal" href="{{$base}}/design">Design</a></li>
                     <li><a class="internal" href="{{$base}}/resume">Resume</a></li>
                     <li><a class="internal" href="{{$base}}/contact">Contact</a></li>
@@ -60,7 +63,7 @@
 
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/bin/materialize.js"></script>
+<script src="js/material/bin/materialize.js"></script>
 <script src="js/init.js"></script>
 </body>
 </html>
