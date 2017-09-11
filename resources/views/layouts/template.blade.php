@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,21 +18,21 @@
     <div class="navbar-fixed">
         <nav class="main-nav" role="navigation">
             <div class="nav-wrapper container ">
-                <a id="logo-container" href="/" class="brand-logo white-text internal" style="font-family: Pacifico, sans-serif">Lynne Kirsch</a>
+                <a id="logo-container" href="{{$base}}/" class="brand-logo white-text internal" style="font-family: Pacifico, sans-serif">Lynne Kirsch</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="internal" href="/introduction">Introduction</a></li>
-                    <li><a class="internal" href="/code">Code</a></li>
-                    <li><a class="internal" href="/design">Design</a></li>
-                    <li><a class="internal" href="/resume">Resume</a></li>
-                    <li><a class="internal" href="/contact">Contact</a></li>
+                    <li><a class="internal" href="{{$base}}/introduction">Introduction</a></li>
+                    <li><a class="internal" href="{{$base}}/code">Code</a></li>
+                    <li><a class="internal" href="{{$base}}/design">Design</a></li>
+                    <li><a class="internal" href="{{$base}}/resume">Resume</a></li>
+                    <li><a class="internal" href="{{$base}}/contact">Contact</a></li>
                 </ul>
 
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a class="internal" href="/introduction">Introduction</a></li>
-                    <li><a class="internal" href="/code">Code</a></li>
-                    <li><a class="internal" href="/design">Design</a></li>
-                    <li><a class="internal" href="/resume">Resume</a></li>
-                    <li><a class="internal" href="/contact">Contact</a></li>
+                    <li><a class="internal" href="{{$base}}/introduction">Introduction</a></li>
+                    <li><a class="internal" href="{{$base}}/code">Code</a></li>
+                    <li><a class="internal" href="{{$base}}/design">Design</a></li>
+                    <li><a class="internal" href="{{$base}}/resume">Resume</a></li>
+                    <li><a class="internal" href="{{$base}}/contact">Contact</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>

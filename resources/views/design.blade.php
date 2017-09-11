@@ -6,7 +6,7 @@
                 <div class="container grey-text text-darken-4 body">
                     <div class="row no-margin">
                         <div class="col l6 s12">
-                            <img src="/lynnekirschsite/public/img/portfolio/shakeshack.jpg" style="width: 100%;">
+                            <img src="{{$base}}/img/portfolio/shakeshack.jpg" style="width: 100%;">
                         </div>
                         <div class="col l6 s12 center">
                             <h3 class="cyan-text">Shake Shack Retail Shop</h3>
@@ -41,31 +41,24 @@
 
                 <div class="container grey-text text-darken-4 body">
                     <div class="row no-margin">
-                        <div class="col l6 s12 ">
+                        <div class="col l6 s12 center ">
                             <h3 class="cyan-text center">Company Stores</h3>
                             <hr>
                             <p>
-                                <div class="center">
-                                    Most of my time at TeamWorld when I was in the Web Designer position was
-                                spent setting up and theming these company stores. We have a base template
-                                that we use for all company stores, and when moving a new customer onto one,
-                                we reskin the template to match their brand guidelines. <br><br>
                                 I assisted in the design of this version of the company store, and the new
                                 version of the company store that Shake Shack is on was designed entirely by me.
-                                <br><br>
                                 Many of these company stores are business to business sales and not open to the public, but here
                                 are a few I designed that are:
                                 <br><br>
-                                </div>
                                 <span class="left-align">
                                     <a href="https://shop.company-store.net/society_for_pediatric_dermatology" target="_blank">Society for Pediatric Dermatology</a>
-                                    <br>
+                                    &bull;
                                     <a href="https://shop.company-store.net/sabreliner/?" target="_blank">Innova Aerospace</a>
-                                    <br>
+                                    &bull;
                                     <a href="https://www.necco-gear.com/" target="_blank">Necco</a>
-                                    <br>
-                                    <a href="https://www.sockoutcancer.org/" target="_blank">Sock Out Cancer</a> (a good cause!)
-                                    <br>
+                                    &bull;
+                                    <a href="https://www.sockoutcancer.org/" target="_blank">Sock Out Cancer</a>
+                                   &bull;
                                     <a href="https://shop.company-store.net/eqr/?" target="_blank">EQR</a>
                                 </span>
                                 <br>
@@ -77,14 +70,13 @@
                                 <div class="chip">HTML</div>
                                 <div class="chip">CSS 3</div>
                                 <div class="chip">Sass</div>
-                                <div class="chip">SEO</div>
                                 <div class="chip">Javascript</div>
                                 <div class="chip">Jquery</div>
                                 <div class="chip">Ajax</div>
                             </div>
                         </div>
                         <div class="col l6 s12">
-                            <img src="/lynnekirschsite/public/img/portfolio/socped.jpg" style="width: 100%;">
+                            <img src="{{$base}}/img/portfolio/socped.jpg" style="width: 100%;">
                         </div>
                     </div>
                 </div>
@@ -92,7 +84,7 @@
                 <div class="container grey-text text-darken-4 body">
                     <div class="row no-margin">
                         <div class="col l6 s12">
-                            <img src="/lynnekirschsite/public/img/portfolio/garbagewings.jpg" style="width: 100%;">
+                            <img src="{{$base}}/img/portfolio/garbagewings.jpg" style="width: 100%;">
                         </div>
                         <div class="col l6 s12 center">
                             <h3 class="cyan-text">Garbage Wings</h3>
@@ -144,7 +136,7 @@
                             </div>
                         </div>
                         <div class="col l6 s12">
-                            <img src="/lynnekirschsite/public/img/portfolio/leaf.jpg" style="width: 100%;">
+                            <img src="{{$base}}/img/portfolio/leaf.jpg" style="width: 100%;">
                         </div>
                     </div>
                 </div>
@@ -161,8 +153,8 @@
                             </p>
                         </div>
                         <div class="col l12 s12 center">
-                            <img src="/lynnekirschsite/public/img/portfolio/blast1.jpg">
-                            <img src="/lynnekirschsite/public/img/portfolio/blast2.jpg">
+                            <img src="{{$base}}/img/portfolio/blast1.jpg" style="max-width: 100%;">
+                            <img src="{{$base}}/img/portfolio/blast2.jpg" style="max-width: 100%;">
                         </div>
                     </div>
                 </div>

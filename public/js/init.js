@@ -37,12 +37,6 @@ document.addEventListener('click', function(e) {
     var el = e.target;
     var url = el.href;
 
-
-    // adjust
-    if(url.indexOf("localhost/")) {
-         url = url.replace("localhost/", "localhost/lynnekirschsite/public/");
-    }
-
     while (el && !url) {
         el = el.parentNode;
     }

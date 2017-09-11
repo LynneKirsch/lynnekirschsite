@@ -18,4 +18,4 @@
     <div class="chip deep-purple lighten-4">Responsive Design</div>
 </div>
 <br>
-<a class="btn deep-purple darken-2 z-depth-0">Design Portfolio</a>
+<a class="btn deep-purple darken-2 z-depth-0 internal" href="{{$base}}/design">Design Portfolio</a>
