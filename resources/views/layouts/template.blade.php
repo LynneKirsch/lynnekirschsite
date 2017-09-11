@@ -16,21 +16,21 @@
     <div class="navbar-fixed">
         <nav class="main-nav" role="navigation">
             <div class="nav-wrapper container ">
-                <a id="logo-container" href="/" class="brand-logo white-text" style="font-family: Pacifico, sans-serif">Lynne Kirsch</a>
+                <a id="logo-container" href="/" class="brand-logo white-text internal" style="font-family: Pacifico, sans-serif">Lynne Kirsch</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="/introduction">Introduction</a></li>
-                    <li><a href="/code">Code</a></li>
-                    <li><a href="/design">Design</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a class="internal" href="/introduction">Introduction</a></li>
+                    <li><a class="internal" href="/code">Code</a></li>
+                    <li><a class="internal" href="/design">Design</a></li>
+                    <li><a class="internal" href="/resume">Resume</a></li>
+                    <li><a class="internal" href="/contact">Contact</a></li>
                 </ul>
 
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a href="/introduction">Introduction</a></li>
-                    <li><a href="/code">Code</a></li>
-                    <li><a href="/design">Design</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a class="internal" href="/introduction">Introduction</a></li>
+                    <li><a class="internal" href="/code">Code</a></li>
+                    <li><a class="internal" href="/design">Design</a></li>
+                    <li><a class="internal" href="/resume">Resume</a></li>
+                    <li><a class="internal" href="/contact">Contact</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
@@ -38,13 +38,7 @@
     </div>
 </div>
 
-<main  id="main-page-content" class="valign-wrapper" style="display: none;">
-    <div class="row no-margin" id="content-inner">
-        <div class="col s12">
-            @yield('content')
-        </div>
-    </div>
-</main>
+@yield('content')
 
 <footer class="page-footer custom-footer">
     <div class="container">
@@ -58,6 +52,8 @@
         </div>
     </div>
 </footer>
+
+
 
 
 <!--  Scripts-->

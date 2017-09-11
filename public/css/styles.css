@@ -6841,7 +6841,7 @@ body {
   flex-direction: column;
   width: 100%;
   overflow-x: hidden;
-  background: url("http://cdn.hdwallpaperpoint.com/wp-content/uploads/2016/06/abstract-low-poly-hd-wallpaper-1920x1200.jpg");
+  background: url("../img/polygon.jpg");
   background-position: top center;
   background-size: cover;
   background-attachment: fixed; }
@@ -6849,7 +6849,7 @@ body {
 .home-wrap {
   height: 85vh; }
 
-main {
+#main-page-content {
   flex: 1 0 auto;
   overflow-x: hidden; }
 
@@ -6889,7 +6889,16 @@ nav {
   margin: 0 auto;
   max-width: 1280px;
   width: 100%; }
-  .container.padding {
+  .container .inner {
+    width: 60%;
+    margin: 0 auto; }
+    .container .inner:after {
+      content: "";
+      visibility: hidden;
+      display: block;
+      width: 10000px; }
+  .container.body {
+    margin: 10px auto 10px auto;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.9);
     -webkit-border-radius: 5px;
@@ -6898,11 +6907,6 @@ nav {
 
 #sidenav-overlay {
   z-index: 950; }
-
-.container.intro {
-  width: 80%;
-  margin-top: 10px;
-  margin-bottom: 10px; }
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -6916,12 +6920,6 @@ nav {
 .stack_for_print {
   display: none; }
 
-.resume {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-  .resume.container {
-    width: 80%; }
-
 .resume_footer {
   display: none; }
 
@@ -6929,22 +6927,31 @@ nav {
   .home-wrap {
     height: auto !important; }
 
-  .container.intro {
-    width: 90%; }
-  .container.padding {
+  .container .inner {
     width: 100%; }
+    .container .inner:after {
+      width: 1px; }
   .container.mobile-padding {
     padding: 1rem; } }
 @media print {
   #header {
     display: none !important; }
 
+  .row .col {
+    margin: 0; }
+
   .resume {
     font-size: 12px;
-    margin-bottom: 0; }
-    .resume.container.padding {
-      width: 100%;
-      padding: 0; }
+    margin-bottom: 0;
+    padding: 0; }
+    .resume.container {
+      padding: 0;
+      margin: 0; }
+      .resume.container .inner {
+        width: 100%;
+        padding: 0; }
+        .resume.container .inner:after {
+          width: 1px; }
     .resume .resume-print {
       display: none; }
     .resume strong {
